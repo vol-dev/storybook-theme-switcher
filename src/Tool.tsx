@@ -4,28 +4,25 @@ import { Icons, IconButton } from "@storybook/components";
 import { TOOL_ID } from "./constants";
 
 export const Tool = () => {
-  const [{ myAddon }, updateGlobals] = useGlobals();
+  const [{ isDarkMode }, updateGlobals] = useGlobals();
 
   const toggleMyTool = useCallback(
     () =>
       updateGlobals({
-        myAddon: myAddon ? undefined : true,
+        isDarkMode: !isDarkMode,
       }),
-    [myAddon]
+    [false]
   );
 
   return (
     <IconButton
       key={TOOL_ID}
-      active={myAddon}
-      title="Enable my addon"
+      active={isDarkMode}
+      title="Theme"
       onClick={toggleMyTool}
     >
-      {/*
-        Checkout https://next--storybookjs.netlify.app/official-storybook/?path=/story/basics-icon--labels
-        for the full list of icons
-      */}
-      <Icons icon="lightning" />
+      <Icons icon="mirror" />
+      Theme
     </IconButton>
   );
 };

@@ -1,11 +1,13 @@
 {
-  "name": "storybook-addon-kit",
+  "name": "storybook-theme-switch",
   "version": "0.0.0",
-  "description": "everything you need to build a Storybook addon",
+  "description": "theme switch tool for storybook",
   "keywords": [
     "storybook-addons",
-    "style",
-    "test"
+    "data-color-scheme",
+    "attribute",
+    "theme",
+    "theme switch"
   ],
   "repository": {
     "type": "git",
@@ -81,7 +83,7 @@
     "access": "public"
   },
   "storybook": {
-    "displayName": "Addon Kit",
+    "displayName": "Theme switch",
     "supportedFrameworks": [
       "react",
       "vue",
