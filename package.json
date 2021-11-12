@@ -13,7 +13,7 @@
     "type": "git",
     "url": "https://github.com/storybookjs/storybook-addon-kit"
   },
-  "author": "winkerVSbecks",
+  "author": "erickruiz29",
   "license": "MIT",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
