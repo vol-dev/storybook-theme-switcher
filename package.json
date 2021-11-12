@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/storybookjs/storybook-addon-kit"
+    "url": "https://github.com/erickruiz29/storybook-theme-switch"
   },
   "author": "erickruiz29",
   "license": "MIT",
