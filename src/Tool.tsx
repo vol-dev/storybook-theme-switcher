@@ -11,7 +11,7 @@ export const Tool = () => {
       updateGlobals({
         isDarkMode: !isDarkMode,
       }),
-    [false]
+    [isDarkMode]
   );
 
   return (
