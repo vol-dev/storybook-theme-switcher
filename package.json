@@ -1,5 +1,5 @@
 {
-  "name": "storybook-theme-switching",
+  "name": "@volume.com/storybook-theme-switching",
   "version": "0.1.3",
   "description": "theme switch tool for storybook",
   "keywords": [
@@ -11,9 +11,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/skyVerr/storybook-theme-switch"
+    "url": "https://github.com/vol-dev/storybook-theme-switcher"
   },
-  "author": "ver",
+  "author": "volume.com",
   "license": "MIT",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
